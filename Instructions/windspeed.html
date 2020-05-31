@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" media = "screen">
+    <link rel="stylesheet" href="style.css" media = "screen">
+    
+    <title>Document</title>
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    </button>
+                    <div class ="col-xs-9">
+                        <a class="navbar_brand" href="index.html" id="emblem"><strong>Latitude</strong></a>
+                    </div>
+                </div>
+                    <div class="collapse navbar-collapse" id="bs=#bs-example-navbar-collapse-1">
+                        <ul class="nar narbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="temperature.html">Maximum Temperature</a></li> 
+                                    <li><a href="humidity.html">Humidity</a></li>
+                                    <li><a href="cloudiness.html">Cloudiness</a></li> 
+                                    <li><a href="windspeed.html">Wind Speed</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Comparison.html">Comparison</a></li>
+                            <li><a href="Data.html">Data</a></li>
+                       </ul>
+                    </div> 
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+
+                            <h1 id ="header"><strong>Wind Speed</strong></h1>
+                            <hr>
+                            <img src="resources/assets/images/fig4.png" style='width: 100%;height:100%;float: auto;'>
+                                
+                                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. We accomplished this analysis by pulling dataset of 500 cities from the OpenWweatherAPI.The plot is showing the relationship between the Latitude and the wind speed.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+</body>
+</html>
